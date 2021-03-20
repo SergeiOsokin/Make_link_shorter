@@ -1,0 +1,12 @@
+-- server    
+
+
+"client": "npm run start --prefix client" - запуск приложения, которое в другой папке
+"dev": "concurrently \"npm run server\" \"npm run client\" " - concurrently позволяет запускать последовательно несколько коменд
+
+
+-- client
+"materialize-css": "^1.0.0-rc.2", - не заморачиваться со стилями
+"react-router-dom": "^5.2.0", - необходим для роутинга. подволяет работать с роутами
+
+<AuthContext.Provider value={{login, logout, token, userId, isAuth}}> - для работы с контекстом по всему приложению

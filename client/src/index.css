@@ -1,0 +1,15 @@
+@import '~materialize-css/dist/css/materialize.min.css';
+
+.btn_enter {
+    margin-right: 10px;
+}
+
+.nav-wrapper {
+    padding: 0 2rem;
+}
+
+.preloader {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
